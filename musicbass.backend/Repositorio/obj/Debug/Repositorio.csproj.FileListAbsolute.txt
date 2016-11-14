@@ -1,0 +1,4 @@
+D:\music.bass.backend\music.bass.backend\musicbass.backend\Repositorio\bin\Debug\Repositorio.dll
+D:\music.bass.backend\music.bass.backend\musicbass.backend\Repositorio\bin\Debug\Repositorio.pdb
+D:\music.bass.backend\music.bass.backend\musicbass.backend\Repositorio\obj\Debug\Repositorio.dll
+D:\music.bass.backend\music.bass.backend\musicbass.backend\Repositorio\obj\Debug\Repositorio.pdb
