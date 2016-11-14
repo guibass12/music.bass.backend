@@ -1,0 +1,4 @@
+D:\music.bass.backend\music.bass.backend\musicbass.backend\domain\bin\Debug\domain.dll
+D:\music.bass.backend\music.bass.backend\musicbass.backend\domain\bin\Debug\domain.pdb
+D:\music.bass.backend\music.bass.backend\musicbass.backend\domain\obj\Debug\domain.dll
+D:\music.bass.backend\music.bass.backend\musicbass.backend\domain\obj\Debug\domain.pdb
