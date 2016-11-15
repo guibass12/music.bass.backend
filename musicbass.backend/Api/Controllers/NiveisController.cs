@@ -1,15 +1,13 @@
-﻿using System.Data.Entity;
-using System.Data.Entity.Infrastructure;
-using System.Linq;
+﻿using System.Linq;
 using System.Net;
 using System.Web.Http;
-using System.Web.Http.Description;
-using domain;
 using infra.DataContext;
 using System.Net.Http;
+using System.Web.Http.Cors;
 
 namespace api.Controllers
 {
+    [EnableCors(origins: "*", headers: "*", methods: "*" )]
     [RoutePrefix("api/v1")]
     public class NiveisController : ApiController
     {
@@ -21,7 +19,7 @@ namespace api.Controllers
             var result = db.Niveis.ToList();
             return Request.CreateResponse(HttpStatusCode.OK, result);
         }
-
+        
         [Route("aulas")]
         public HttpResponseMessage GetAulas()
         {

@@ -1,8 +1,8 @@
 ﻿using Newtonsoft.Json.Serialization;
-using System;
-using System.Collections.Generic;
-using System.Linq;
+using System.Net.Http;
 using System.Web.Http;
+using System.Web.Http.Cors;
+using System.Web.Http.Routing;
 
 namespace api
 {
@@ -18,7 +18,15 @@ namespace api
             jsonFormatter.SerializerSettings.PreserveReferencesHandling = Newtonsoft.Json.PreserveReferencesHandling.None;
             config.Formatters.Remove(config.Formatters.XmlFormatter);
             settings.Formatting = Newtonsoft.Json.Formatting.Indented;
-            settings.ContractResolver = new CamelCasePropertyNamesContractResolver(); 
+            settings.ContractResolver = new CamelCasePropertyNamesContractResolver();
+
+            var cors = new EnableCorsAttribute(
+       origins: "*",
+       headers: "*",
+       methods: "*");
+            config.EnableCors(cors);
+
+
             // Web API routes
             config.MapHttpAttributeRoutes();
 
@@ -27,6 +35,9 @@ namespace api
                 routeTemplate: "api/{controller}/{id}",
                 defaults: new { id = RouteParameter.Optional }
             );
+
+            var constraints = new { httpMethod = new HttpMethodConstraint(HttpMethod.Options) };
+            config.Routes.IgnoreRoute("OPTIONS", "{*pathInfo}", constraints);
         }
     }
 }
