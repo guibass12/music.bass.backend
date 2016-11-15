@@ -9,7 +9,7 @@ namespace domain
         public string Nome { get; set; }
         public string Email { get; set; }
         public string Senha { get; set; }
-        public string ConfirmarSenha { get; set; }
+        public string ConfirmaSenha { get; set; }
         public int NivelId { get; set; }
         public virtual Nivel Nivel { get; set; }
 

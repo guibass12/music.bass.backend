@@ -1,4 +1,0 @@
-D:\music.bass.backend\music.bass.backend\musicbass.backend\Servico\bin\Debug\Servico.dll
-D:\music.bass.backend\music.bass.backend\musicbass.backend\Servico\bin\Debug\Servico.pdb
-D:\music.bass.backend\music.bass.backend\musicbass.backend\Servico\obj\Debug\Servico.dll
-D:\music.bass.backend\music.bass.backend\musicbass.backend\Servico\obj\Debug\Servico.pdb

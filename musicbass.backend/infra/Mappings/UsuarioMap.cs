@@ -20,7 +20,7 @@ namespace infra.Mappings
                     new IndexAnnotation(new IndexAttribute("IX_EMAIL", 1) { IsUnique = true }))
                 .IsRequired();
 
-            Ignore(p => p.ConfirmarSenha);
+            Ignore(p => p.ConfirmaSenha);
 
             Property(x => x.Id)
 .HasDatabaseGeneratedOption(DatabaseGeneratedOption.Identity);

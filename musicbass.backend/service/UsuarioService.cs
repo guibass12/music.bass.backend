@@ -37,7 +37,7 @@ namespace service
                 throw new Exception("Email já cadastrado");
 
             usuario.Validar();
-            usuario.SetarSenha(usuario.Senha, usuario.ConfirmarSenha);
+            usuario.SetarSenha(usuario.Senha, usuario.ConfirmaSenha);
             _userRepo.Criar(usuario);
         }
 

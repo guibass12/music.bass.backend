@@ -1,4 +1,3 @@
-D:\music.bass.backend\music.bass.backend\musicbass.backend\api\bin\ApplicationInsights.config
 D:\music.bass.backend\music.bass.backend\musicbass.backend\api\bin\roslyn\csc.exe
 D:\music.bass.backend\music.bass.backend\musicbass.backend\api\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
 D:\music.bass.backend\music.bass.backend\musicbass.backend\api\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
@@ -59,11 +58,11 @@ D:\music.bass.backend\music.bass.backend\musicbass.backend\api\bin\Microsoft.Owi
 D:\music.bass.backend\music.bass.backend\musicbass.backend\api\bin\Microsoft.Owin.Host.SystemWeb.xml
 D:\music.bass.backend\music.bass.backend\musicbass.backend\api\bin\Microsoft.Owin.Security.xml
 D:\music.bass.backend\music.bass.backend\musicbass.backend\api\bin\Microsoft.Owin.Security.OAuth.xml
-D:\music.bass.backend\music.bass.backend\musicbass.backend\api\bin\System.Web.Http.Cors.xml
-D:\music.bass.backend\music.bass.backend\musicbass.backend\api\bin\System.Web.Http.Owin.xml
 D:\music.bass.backend\music.bass.backend\musicbass.backend\api\bin\Newtonsoft.Json.xml
 D:\music.bass.backend\music.bass.backend\musicbass.backend\api\bin\System.Net.Http.Formatting.xml
 D:\music.bass.backend\music.bass.backend\musicbass.backend\api\bin\System.Web.Http.xml
+D:\music.bass.backend\music.bass.backend\musicbass.backend\api\bin\System.Web.Http.Cors.xml
+D:\music.bass.backend\music.bass.backend\musicbass.backend\api\bin\System.Web.Http.Owin.xml
 D:\music.bass.backend\music.bass.backend\musicbass.backend\api\bin\System.Web.Http.WebHost.xml
 D:\music.bass.backend\music.bass.backend\musicbass.backend\api\bin\common.pdb
 D:\music.bass.backend\music.bass.backend\musicbass.backend\api\obj\Debug\api.csprojResolveAssemblyReference.cache

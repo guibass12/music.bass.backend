@@ -1,5 +1,5 @@
-D:\music.bass.backend\music.bass.backend\musicbass.backend\infra\bin\Debug\infra.dll.config
 D:\music.bass.backend\music.bass.backend\musicbass.backend\infra\bin\Debug\infra.dll
+D:\music.bass.backend\music.bass.backend\musicbass.backend\infra\bin\Debug\infra.dll.config
 D:\music.bass.backend\music.bass.backend\musicbass.backend\infra\bin\Debug\infra.pdb
 D:\music.bass.backend\music.bass.backend\musicbass.backend\infra\bin\Debug\domain.dll
 D:\music.bass.backend\music.bass.backend\musicbass.backend\infra\bin\Debug\EntityFramework.dll

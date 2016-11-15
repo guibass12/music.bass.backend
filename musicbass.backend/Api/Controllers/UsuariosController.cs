@@ -1,16 +1,13 @@
-﻿using System.Linq;
-using System.Net;
+﻿using System.Net;
 using System.Web.Http;
 using System.Net.Http;
-using System.Web.Http.Cors;
 using service;
 using System;
-using System.Threading.Tasks;
 using domain;
 
 namespace api.Controllers
 {
-    [AllowCors]
+
     [RoutePrefix("v1/usuarios")]
     public class UsuariosController : ApiController
     {
