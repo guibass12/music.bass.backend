@@ -1,6 +1,4 @@
-﻿using api.Security;
-using Microsoft.Owin;
-using Microsoft.Owin.Security.OAuth;
+﻿using Microsoft.Owin;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Serialization;
 using Owin;
@@ -10,22 +8,29 @@ using System.Linq;
 using System.Web.Http;
 using System.Web.Http.Cors;
 
+[assembly: OwinStartup(typeof(api.Startup))]
+
 namespace api
 {
+
+
     public class Startup
     {
         public void Configuration(IAppBuilder app)
         {
             HttpConfiguration config = new HttpConfiguration();
 
-          
-            ConfigureWebApi(config);
             app.UseCors(Microsoft.Owin.Cors.CorsOptions.AllowAll);
-            ConfigureOAuth(app);
-                        
+            
+
+            var cors = new EnableCorsAttribute("http://localhost:8080", "*", "*");
+
+            config.EnableCors(cors);
+
+            ConfigureWebApi(config);
+
             app.UseWebApi(config);
 
-            //AutoMapperConfig.RegisterMappings(); 
         }
         public static void ConfigureWebApi(HttpConfiguration config)
         {
@@ -45,10 +50,7 @@ namespace api
 
             formatters.JsonFormatter.SerializerSettings.DateTimeZoneHandling = DateTimeZoneHandling.Local;
 
-           config.MapHttpAttributeRoutes();
-            var cors = new EnableCorsAttribute("*", "*", "*");
-
-            config.EnableCors(cors);
+            config.MapHttpAttributeRoutes();
 
             config.Routes.MapHttpRoute(
                 name: "DefaultApi",
@@ -56,21 +58,21 @@ namespace api
                 defaults: new { id = RouteParameter.Optional }
                 );
         }
-        public void ConfigureOAuth(IAppBuilder app)
+       /* public void ConfigureOAuth(IAppBuilder app, IUsuarioService service)
         {
             OAuthAuthorizationServerOptions OAuthServerOptions = new OAuthAuthorizationServerOptions()
             {
                 AllowInsecureHttp = true,
                 TokenEndpointPath = new PathString("/security/token"),
                 AccessTokenExpireTimeSpan = TimeSpan.FromHours(2),
-                Provider = new AuthorizationServerProvider()
+                Provider = new AuthorizationServerProvider(service)
             };
 
             app.UseOAuthAuthorizationServer(OAuthServerOptions);
             app.UseOAuthBearerAuthentication(new OAuthBearerAuthenticationOptions());
 
 
-        }
+        }*/
     }
 
     public class DynamicContractResolver : Newtonsoft.Json.Serialization.DefaultContractResolver
@@ -88,4 +90,5 @@ namespace api
             return properties.Where(p => _propertiesToSerialize.Contains(p.PropertyName)).ToList();
         }
     }
+
 }

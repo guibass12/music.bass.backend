@@ -1,3 +1,5 @@
+D:\music.bass.backend\music.bass.backend\musicbass.backend\api\obj\Debug\api.csprojResolveAssemblyReference.cache
+D:\music.bass.backend\music.bass.backend\musicbass.backend\api\bin\ApplicationInsights.config
 D:\music.bass.backend\music.bass.backend\musicbass.backend\api\bin\roslyn\csc.exe
 D:\music.bass.backend\music.bass.backend\musicbass.backend\api\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
 D:\music.bass.backend\music.bass.backend\musicbass.backend\api\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
@@ -16,7 +18,6 @@ D:\music.bass.backend\music.bass.backend\musicbass.backend\api\bin\api.pdb
 D:\music.bass.backend\music.bass.backend\musicbass.backend\api\bin\domain.dll
 D:\music.bass.backend\music.bass.backend\musicbass.backend\api\bin\EntityFramework.dll
 D:\music.bass.backend\music.bass.backend\musicbass.backend\api\bin\EntityFramework.SqlServer.dll
-D:\music.bass.backend\music.bass.backend\musicbass.backend\api\bin\infra.dll
 D:\music.bass.backend\music.bass.backend\musicbass.backend\api\bin\Microsoft.AI.Agent.Intercept.dll
 D:\music.bass.backend\music.bass.backend\musicbass.backend\api\bin\Microsoft.AI.DependencyCollector.dll
 D:\music.bass.backend\music.bass.backend\musicbass.backend\api\bin\Microsoft.AI.PerfCounterCollector.dll
@@ -40,10 +41,9 @@ D:\music.bass.backend\music.bass.backend\musicbass.backend\api\bin\System.Web.Co
 D:\music.bass.backend\music.bass.backend\musicbass.backend\api\bin\System.Web.Http.Cors.dll
 D:\music.bass.backend\music.bass.backend\musicbass.backend\api\bin\System.Web.Http.dll
 D:\music.bass.backend\music.bass.backend\musicbass.backend\api\bin\System.Web.Http.Owin.dll
-D:\music.bass.backend\music.bass.backend\musicbass.backend\api\bin\System.Web.Http.WebHost.dll
 D:\music.bass.backend\music.bass.backend\musicbass.backend\api\bin\common.dll
+D:\music.bass.backend\music.bass.backend\musicbass.backend\api\bin\infra.dll
 D:\music.bass.backend\music.bass.backend\musicbass.backend\api\bin\domain.pdb
-D:\music.bass.backend\music.bass.backend\musicbass.backend\api\bin\infra.pdb
 D:\music.bass.backend\music.bass.backend\musicbass.backend\api\bin\service.pdb
 D:\music.bass.backend\music.bass.backend\musicbass.backend\api\bin\EntityFramework.xml
 D:\music.bass.backend\music.bass.backend\musicbass.backend\api\bin\EntityFramework.SqlServer.xml
@@ -63,8 +63,7 @@ D:\music.bass.backend\music.bass.backend\musicbass.backend\api\bin\System.Net.Ht
 D:\music.bass.backend\music.bass.backend\musicbass.backend\api\bin\System.Web.Http.xml
 D:\music.bass.backend\music.bass.backend\musicbass.backend\api\bin\System.Web.Http.Cors.xml
 D:\music.bass.backend\music.bass.backend\musicbass.backend\api\bin\System.Web.Http.Owin.xml
-D:\music.bass.backend\music.bass.backend\musicbass.backend\api\bin\System.Web.Http.WebHost.xml
 D:\music.bass.backend\music.bass.backend\musicbass.backend\api\bin\common.pdb
-D:\music.bass.backend\music.bass.backend\musicbass.backend\api\obj\Debug\api.csprojResolveAssemblyReference.cache
+D:\music.bass.backend\music.bass.backend\musicbass.backend\api\bin\infra.pdb
 D:\music.bass.backend\music.bass.backend\musicbass.backend\api\obj\Debug\api.dll
 D:\music.bass.backend\music.bass.backend\musicbass.backend\api\obj\Debug\api.pdb

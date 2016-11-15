@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "service", "service\service.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "common", "common\common.csproj", "{3A5AC259-9831-4973-B680-B35A4F9FB35D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "api", "api\api.csproj", "{31249724-6223-487F-997F-826ECB50C961}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{3A5AC259-9831-4973-B680-B35A4F9FB35D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3A5AC259-9831-4973-B680-B35A4F9FB35D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3A5AC259-9831-4973-B680-B35A4F9FB35D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31249724-6223-487F-997F-826ECB50C961}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31249724-6223-487F-997F-826ECB50C961}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31249724-6223-487F-997F-826ECB50C961}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31249724-6223-487F-997F-826ECB50C961}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
